@@ -9,7 +9,7 @@ export interface DownloadedEpisode {
   image?: string;
   feedId: string;
   feedTitle: string;
-  localUrl: string;
+  localUri: string;
   downloadedAt: number;
   episodeData: Episode;
 }

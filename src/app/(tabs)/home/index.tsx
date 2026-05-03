@@ -16,7 +16,6 @@ export default function HomeScreen() {
   });
 
   if (isLoading) {
-    console.log("Currently loading");
     return <ActivityIndicator />;
   }
 

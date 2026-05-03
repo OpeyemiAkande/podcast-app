@@ -56,8 +56,6 @@ export default function PlayerProvider({children}: PropsWithChildren) {
     player.play();
   };
 
-  console.log("Currently playing: ", episode);
-
   return (
     <PlayerContext.Provider
       value={{

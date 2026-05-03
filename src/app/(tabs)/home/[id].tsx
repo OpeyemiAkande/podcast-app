@@ -67,7 +67,7 @@ export default function PodcastDetails() {
           <Pressable
             onPress={() => setShowFullDescription(!showFullDescription)}
           >
-            {showFullDescription ? "LESS" : "MORE"}
+            <Text>{showFullDescription ? "LESS" : "MORE"}</Text>
           </Pressable>
         </View>
       ) : null}
